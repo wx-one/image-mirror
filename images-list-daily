@@ -2,5 +2,5 @@
 # See images-list for more information
 #
 # LIST FORMAT: <SOURCE> <DESTINATION> <TAG>
-neuvector/scanner rancher/mirrored-neuvector-scanner latest
-neuvector/updater rancher/mirrored-neuvector-updater latest
+neuvector/scanner wxone/mirrored-neuvector-scanner latest
+neuvector/updater wxone/mirrored-neuvector-updater latest
