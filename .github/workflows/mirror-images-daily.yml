@@ -1,4 +1,5 @@
 name: Publish Mirrored Images Daily
+environment: DOCKER_PASSWORD
 
 on:
   push:
