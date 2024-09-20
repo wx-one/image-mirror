@@ -3,7 +3,7 @@ name: Publish Mirrored Images
 on:
   push:
     branches:
-      - master
+      - work
 
 permissions:
   contents: read
@@ -15,7 +15,7 @@ env:
 jobs:
   mirror-images:
     runs-on: ubuntu-latest
-    if: github.repository == 'rancher/image-mirror'
+    if: github.repository == 'wx-one/image-mirror'
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
