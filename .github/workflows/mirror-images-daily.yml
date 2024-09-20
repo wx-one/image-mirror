@@ -1,5 +1,5 @@
 name: Publish Mirrored Images Daily
-environment: DOCKER_PASSWORD
+
 
 on:
   push:
@@ -17,6 +17,7 @@ env:
 
 jobs:
   mirror-images:
+    environment: DOCKER_PASSWORD
     runs-on: ubuntu-latest
     if: github.repository == 'wx-one/image-mirror'
     steps:
