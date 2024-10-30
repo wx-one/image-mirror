@@ -1,4 +1,4 @@
-name: Publish Mirrored Images
+name: Publish CRDB Mirrored Images
 
 on:
   push:
